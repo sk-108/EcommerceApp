@@ -78,6 +78,21 @@
     
     
   </dependencies>
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Team c Releases Nexus Repository</name>
+	      <url>http://13.211.47.155:8081/repository/Team-C-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Team c Snapshot Nexus Repository </name>
+	      <url>http://13.211.47.155:8081/repository/Team-C-SnapShot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <finalName>EcommerceApp</finalName>
   </build>
